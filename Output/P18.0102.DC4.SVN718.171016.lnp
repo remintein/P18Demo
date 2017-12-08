@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+".\output\main.o"
+".\output\dbmain_demo.o"
+".\output\algo_debug.o"
+".\output\beep_debug.o"
+".\output\bt_debug.o"
+".\output\contact_debug.o"
+".\output\flash_debug.o"
+".\output\key_debug.o"
+".\output\lcd_debug.o"
+".\output\led_debug.o"
+".\output\ledseg_debug.o"
+".\output\rtc_debug.o"
+".\output\transmode_debug.o"
+".\output\sound_debug.o"
+".\output\tcp_debug.o"
+".\output\gps.debug.o"
+".\output\2_4g_debug.o"
+".\output\catactlesscard_debug.o"
+".\output\qr_debug.o"
+".\output\version_debug.o"
+".\output\irda_debug.o"
+".\output\auto_debug.o"
+"..\..\P18library\P18.Lib.SVN716.171016.lib"
+--library_type=microlib --strict --scatter ".\P18.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\P18.0102.DC4.SVN718.171016.map" -o .\Output\P18.0102.DC4.SVN718.171016.axf

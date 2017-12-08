@@ -1,0 +1,165 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: XIONG Microsoft, Microsoft, LIC=LSNPC-77D2B-EUE4R-KBE66-1HVE6-2G8QH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\P18APP.uvprojx
+Project File Date:  10/16/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'P18'
+Before Build - User command #1: .\prebuild.bat
+Updating '.':
+Restored 'Output\P18.0102.DC4.SVN403.170721.bin'
+Restored 'Output\P18.0102.DC4.SVN404.170721.bin'
+Restored 'Output\P18.0102.DC4.SVN308.170712.bin'
+Restored 'Output\P18.0102.DC4.SVN204.170619.bin'
+Restored 'Output\P18.0102.DC4.SVN344.170714.bin'
+Restored 'Output\P18.0102.DC4.SVN612.170907.bin'
+Restored 'Output\P18.0102.DC4.SVN372.170715.bin'
+Restored 'Output\P18.0102.DC4.SVN338.170714.bin'
+Restored 'Output\P18.0102.DC4.SVN279.170630.bin'
+Restored 'Output\P18.0102.DC4.SVN373.170717.bin'
+Restored 'Output\P18.0102.DC4.SVN666.170921.bin'
+Restored 'Output\P18.0102.DC4.SVN492.170818.bin'
+Restored 'Output\P18.0102.DC4.SVN678.170922.bin'
+Restored 'Output\P18.0102.DC4.SVN569.170905.bin'
+Restored 'Output\P18.0102.DC4.SVN379.170717.bin'
+Restored 'Output\P18.0102.DC4.SVN487.170818.bin'
+At revision 718.
+=========== GENERATE THE DEFAULT VERSION ===========
+*** Build Revision: 718, 171016***
+compiling Contact_Debug.c...
+compiling Algo_Debug.c...
+compiling Flash_Debug.c...
+compiling main.c...
+main.c(516): warning:  #177-D: variable "ucTemp" was declared but never referenced
+  	uchar ucTemp = 0;
+main.c(520): warning:  #177-D: variable "uiTick" was declared but never referenced
+  	uint uiTick, i = 0;
+main.c(520): warning:  #177-D: variable "i" was declared but never referenced
+  	uint uiTick, i = 0;
+main.c: 3 warnings, 0 errors
+compiling Beep_Debug.c...
+compiling BT_Debug.c...
+DebugFunc\BT_Debug.c(53): warning:  #223-D: function "Uart5_GetData_DMA" declared implicitly
+  	if(Uart5_GetData_DMA(&uiLen,aucTmpBuff,100))
+DebugFunc\BT_Debug.c(112): warning:  #223-D: function "Uart5_GetData_DMA" declared implicitly
+  	if(Uart5_GetData_DMA(&uiLen,aucTmpBuff,1000))
+DebugFunc\BT_Debug.c(191): warning:  #223-D: function "Uart_BTDebug" declared implicitly
+  	Uart_BTDebug(1);
+DebugFunc\BT_Debug.c(180): warning:  #177-D: variable "acRecBuff" was declared but never referenced
+  	uchar acRecBuff[1000], acRecBuff1[1000];
+DebugFunc\BT_Debug.c(180): warning:  #177-D: variable "acRecBuff1" was declared but never referenced
+  	uchar acRecBuff[1000], acRecBuff1[1000];
+DebugFunc\BT_Debug.c(181): warning:  #177-D: variable "puiRecLen" was declared but never referenced
+  	uint puiRecLen;
+DebugFunc\BT_Debug.c: 6 warnings, 0 errors
+compiling DBMain_Demo.c...
+DebugFunc\DBMain_Demo.c(135): warning:  #68-D: integer conversion resulted in a change of sign
+  		retlong = SYS_WaitKeyEvent(0, 
+XIT_KEY_ALL, 0);
+DebugFunc\DBMain_Demo.c(205): warning:  #223-D: function "Uart_SetSysDebug" declared implicitly
+      Uart_SetSysDebug(1);
+DebugFunc\DBMain_Demo.c(274): warning:  #223-D: function "Uart_SetSysDebug" declared implicitly
+  	Uart_SetSysDebug(1);
+DebugFunc\DBMain_Demo.c(322): warning:  #68-D: integer conversion resulted in a change of sign
+  	SYS_WaitKeyEvent(0,
+XIT_KEY_ALL,0);
+DebugFunc\DBMain_Demo.c(338): warning:  #68-D: integer conversion resulted in a change of sign
+  	SYS_WaitKeyEvent(0,
+XIT_KEY_ALL,0);
+DebugFunc\DBMain_Demo.c(353): warning:  #223-D: function "Uart_SetSysDebug" declared implicitly
+  	Uart_SetSysDebug(1);
+DebugFunc\DBMain_Demo.c(343): warning:  #550-D: variable "uiRecordIdex" was set but never used
+  	uint	        uiRecordIdex;   
+DebugFunc\DBMain_Demo.c(400): warning:  #177-D: variable "ascDispBuff" was declared but never referenced
+  	char	ascDispBuff[40];
+DebugFunc\DBMain_Demo.c(401): warning:  #177-D: variable "b" was declared but never referenced
+  	uint b = 123456789;
+DebugFunc\DBMain_Demo.c(459): warning:  #68-D: integer conversion resulted in a change of sign
+  	SYS_WaitKeyEvent(0,
+XIT_KEY_ALL,0);
+DebugFunc\DBMain_Demo.c(470): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uchar *"
+  	SYS_DisplayCE(ascDispBuff,3,0,
+ISP_CENTER);
+DebugFunc\DBMain_Demo.c(475): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uchar *"
+  	SYS_DisplayCE(ascDispBuff,7,0,
+ISP_CENTER);
+DebugFunc\DBMain_Demo.c(477): warning:  #68-D: integer conversion resulted in a change of sign
+  	SYS_WaitKeyEvent(0,
+XIT_KEY_ALL,0);	
+DebugFunc\DBMain_Demo.c(489): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uchar *"
+  	SYS_DisplayCE(ascDispBuff,3,0,
+ISP_CENTER);
+DebugFunc\DBMain_Demo.c(494): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uchar *"
+  	SYS_DisplayCE(ascDispBuff,7,0,
+ISP_CENTER);
+DebugFunc\DBMain_Demo.c(496): warning:  #68-D: integer conversion resulted in a change of sign
+  	SYS_WaitKeyEvent(0,
+XIT_KEY_ALL,0);	
+DebugFunc\DBMain_Demo.c: 16 warnings, 0 errors
+compiling LEDSeg_Debug.c...
+compiling LCD_Debug.c...
+compiling RTC_Debug.c...
+compiling TransMode_Debug.c...
+compiling Sound_Debug.c...
+DebugFunc\Sound_Debug.c(15): warning:  #223-D: function "Uart_SetSysDebug" declared implicitly
+  	Uart_SetSysDebug(1);     //系统??印开??
+DebugFunc\Sound_Debug.c(16): warning:  #177-D: variable "ucCOMID" was declared but never referenced
+  	uchar ucCOMID = 4;
+DebugFunc\Sound_Debug.c: 2 warnings, 0 errors
+compiling Key_Debug.c...
+compiling LED_Debug.c...
+compiling 2_4g_Debug.c...
+compiling IrDA_Debug.c...
+compiling Gps.Debug.c...
+DebugFunc\Gps.Debug.c(72): warning:  #223-D: function "GPS_QueryInit" declared implicitly
+  			uctemp = GPS_QueryInit();
+DebugFunc\Gps.Debug.c: 1 warning, 0 errors
+compiling QR_Debug.c...
+DebugFunc\QR_Debug.c(21): warning:  #177-D: variable "acRecBuff2" was declared but never referenced
+  	uchar acRecBuff2[1000] = {0};
+DebugFunc\QR_Debug.c(22): warning:  #550-D: variable "timecount_2" was set but never used
+  	uint timecount_2 = 0;
+DebugFunc\QR_Debug.c: 2 warnings, 0 errors
+compiling Version_Debug.c...
+compiling Tcp_Debug.c...
+compiling CatactlessCard_Debug.c...
+compiling AUTO_Debug.c...
+linking...
+.\P18.sct(14): warning: L6329W: Pattern stm32f4xxappinit.o(HEAP) only matches removed unused sections.
+Program Size: Code=124424 RO-data=4460 RW-data=74428 ZI-data=152180  
+Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+After Build - User command #1: fromelf.exe --bin --output "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\Output\P18.0102.DC4.SVN718.171016.bin" ".\Output\P18.0102.DC4.SVN718.171016.axf"
+".\Output\P18.0102.DC4.SVN718.171016.axf" - 0 Error(s), 31 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

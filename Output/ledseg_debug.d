@@ -1,0 +1,10 @@
+.\output\ledseg_debug.o: DebugFunc\LEDSeg_Debug.c
+.\output\ledseg_debug.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\ledseg_debug.o: ..\..\P18library\HeadFile\systick.h
+.\output\ledseg_debug.o: ..\..\P18library\HeadFile\MiscFunc.h
+.\output\ledseg_debug.o: ..\..\P18library\HeadFile\system.h
+.\output\ledseg_debug.o: ..\..\P18library\HeadFile\AppIF.h
+.\output\ledseg_debug.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\ledseg_debug.o: ..\..\P18library\HeadFile\APIINC.h
+.\output\ledseg_debug.o: ..\..\P18library\HeadFile\Kernel.h
+.\output\ledseg_debug.o: ..\..\P18library\HeadFile\led_seg.h

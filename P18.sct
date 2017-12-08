@@ -1,0 +1,18 @@
+
+
+LR_IROM1 0x08020000 0x00060000  {			;第一个加载域,名字为LR_IROM1,起始地址为0x08020000,大小为0x00060000
+  ER_IROM1 0x08020000 0x00060000  {			;加载域中的运行时域,名字为ER_IROM1,起始地址为0x08020000,大小为0x00060000
+    *.o (RESET, +First)
+	*(InRoot$$Sections)						;All library sections that must be in a root region,for example, __main.o,
+											;__scatter*.o,__dc*.o, and * Region$$Table
+	.ANY (+RO)
+	}
+	RW_RAM1 0x68180000 0x00200000  {		;加载域中的运行时域,名字为RW_RAM1,起始地址为0x68180000,大小为0x00200000
+	  .ANY (+RW +ZI)
+	}
+	RW_IRAM1 0x20000000 0x00010000  {		;加载域中的运行时域,名字为RW_IRAM1,起始地址为0x20000000,大小为0x00010000
+		stm32f4xxappinit.o (HEAP)
+		stm32f4xxappinit.o (STACK)
+		.ANY (+RW +ZI)
+	}
+}
