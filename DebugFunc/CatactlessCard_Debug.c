@@ -318,6 +318,8 @@ void Mifare1_Debug(void)
 //	uint yuan = 0, jiao = 0, fen = 0;
 	uint Wallet_Blance = 0;
 	uint Pay = 0;
+	uint ROLE = 0;
+	uint RoleNo= 0;
 	float a = 0;
 	uchar Payment[10] ={0};
 	uchar ucKeyValue = KEY_NONE; 
@@ -340,8 +342,9 @@ M1StarPostion:
 	else if(1 == LANGUAGE)
 	{
 		SendToPC((uchar *)"1 Recharge 2 chargeback",1,0,DISP_POSITION | DISP_CLRSCR);
-		SendToPC((uchar *)"3 Check the balance",3,0, DISP_POSITION | DISP_CLRLINE);
-		SendToPC((uchar *)"4 Init Wallet",5,0, DISP_POSITION | DISP_CLRLINE);
+		SendToPC((uchar *)"3 Check the balance",3,0, DISP_POSITION);
+		SendToPC((uchar *)"4 Init Wallet",5,0, DISP_POSITION);
+		SendToPC((uchar *)"5 Change role",7,0, DISP_POSITION);
 	}
 	
 	while(1)
@@ -366,6 +369,9 @@ M1StarPostion:
 				break;
 			case KEY_4:
 				mode = 4;
+				break;
+			case KEY_5:
+				mode = 5;
 				break;
 			default :
 				mode=0 ;
@@ -460,6 +466,29 @@ M1StarPostion:
 				SendToPC((uchar *)" Credit card ", 1, 0 ,DISP_POSITION | DISP_CLRSCR);
 			}
 
+		 }
+		 if(mode == 5)
+		 {
+			 SYS_CLS();
+			 SendToPC((uchar *)"  1 - Admin ", 1, 0, DISP_POSITION | DISP_CLRSCR);
+			 SendToPC((uchar *)" 2 - Driver ", 3, 0, DISP_POSITION);
+			 SendToPC((uchar *)" 3 - Customer ", 5, 0, DISP_POSITION);
+			 
+				 ucKeyValue = SYS_ReadKey();
+				 switch(ucKeyValue)
+				 {
+					 case KEY_1:
+						 ROLE = 1;
+						break;
+					 case KEY_2:
+						 ROLE = 2;
+						break;
+					 case KEY_3:
+						 ROLE = 3;
+						break;
+				 }
+			 SYS_CLS();
+			 SendToPC((uchar *)" Credit Card", 3, 0, DISP_POSITION | DISP_CLRSCR);
 		 }
 
 	
@@ -676,6 +705,73 @@ M1StarPostion:
 							SYSTICK_DelayMs(2000);
 							mode = 0;
 							break;
+						}
+					case 5:
+						if (ROLE == 1)
+						{
+							temp = MIFARE1_InitWallet(10,100);
+							if (temp == MI_OK)
+							{
+								SendToPC((uchar *)"Add Admin role success", 3, 0, DISP_POSITION | DISP_CLRLINE );
+								PICC_vFieldOff();   //关闭天线，对于节能应用至关重要
+								SYS_BeepCtrl(ON, 500);
+								SYSTICK_DelayMs(2000);
+								mode = 0;
+								break;
+							}
+							else
+							{
+								SendToPC((uchar *)"Fail to add role", 3, 0, DISP_POSITION | DISP_CLRLINE);
+								PICC_vFieldOff();   //关闭天线，对于节能应用至关重要
+								SYS_BeepCtrl(ON, 500);
+								SYSTICK_DelayMs(2000);
+								mode = 0;
+								break;
+							}
+						}
+						if (ROLE == 2)
+						{
+							temp = MIFARE1_InitWallet(10,200);
+							if (temp == MI_OK)
+							{
+								SendToPC((uchar *)"Add Driver role success", 3, 0, DISP_POSITION | DISP_CLRLINE );
+								PICC_vFieldOff();   //关闭天线，对于节能应用至关重要
+								SYS_BeepCtrl(ON, 500);
+								SYSTICK_DelayMs(2000);
+								mode = 0;
+								break;
+							}
+							else
+							{
+								SendToPC((uchar *)"Fail to add role", 3, 0, DISP_POSITION | DISP_CLRLINE);
+								PICC_vFieldOff();   //关闭天线，对于节能应用至关重要
+								SYS_BeepCtrl(ON, 500);
+								SYSTICK_DelayMs(2000);
+								mode = 0;
+								break;
+							}
+						}
+						if (ROLE == 3)
+						{
+							temp = MIFARE1_InitWallet(10,300);
+							if (temp == MI_OK)
+							{
+								SendToPC((uchar *)"Add Customer role success", 3, 0, DISP_POSITION | DISP_CLRLINE );
+								PICC_vFieldOff();   //关闭天线，对于节能应用至关重要
+								SYS_BeepCtrl(ON, 500);
+								SYSTICK_DelayMs(2000);
+								mode = 0;
+								break;
+							}
+							else
+							{
+								SendToPC((uchar *)"Fail to add role", 3, 0, DISP_POSITION | DISP_CLRLINE);
+								PICC_vFieldOff();   //关闭天线，对于节能应用至关重要
+								SYS_BeepCtrl(ON, 500);
+								SYSTICK_DelayMs(2000);
+								mode = 0;
+								break;
+							}
 						}
 						default:break;
 					}					

@@ -522,8 +522,8 @@ int main(void)
 	App3_Init();
 	Uart_SetSysDebug(1);
 
-	SendToPC((uchar*)"”Ô—‘—°‘Ò", 1, 0,DISP_CENTER | DISP_CLRSCR);
-	SendToPC((uchar*)"1-Chinese", 3, 0,DISP_CENTER | DISP_CLRLINE);
+	SendToPC((uchar*)"Chon Ngon Ngu", 1, 0,DISP_CENTER | DISP_CLRSCR);
+	SendToPC((uchar*)"1-Tieng Viet", 3, 0,DISP_CENTER | DISP_CLRLINE);
 	SendToPC((uchar*)"2-English", 5, 0,DISP_CENTER | DISP_CLRLINE);
     while(1)
     {
@@ -567,7 +567,9 @@ int main(void)
 		{
 			ucKeyValue = KEY_NONE;
 			if(g_laohua_sign) AUTO_Debug();
-			switch(m_PageID)
+			CatactlessCPU_Debug();
+			
+			/*switch(m_PageID)
 			{
 				case 1:SYS_CLS(); ucKeyValue = App2_Page0Func();break;
 				case 2:SYS_CLS(); ucKeyValue = App2_Page1Func();break;
@@ -576,7 +578,7 @@ int main(void)
 				case 5:SYS_CLS(); ucKeyValue = App2_Page4Func();break;
 				default: 
 					break; 
-			}
+			}*/
 			
 			if(ucKeyValue ==KEY_CANCEL)
 			{

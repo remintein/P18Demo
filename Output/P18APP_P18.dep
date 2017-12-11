@@ -1,362 +1,362 @@
 Dependencies for Project 'P18APP', Target 'P18': (DO NOT MODIFY !)
-F (.\main.c)(0x59DDC257)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\auxio.h)(0x59782DBD)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\wifi.h)(0x59476F4E)
-I (..\..\P18library\HeadFile\led_seg.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\tcp.h)(0x59B23421)
-I (..\..\P18library\HeadFile\gps.h)(0x59E472AE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\IrDA.h)(0x59B782C1)
-I (..\..\P18library\HeadFile\QR_collection.h)(0x59DB150A)
-I (..\..\P18library\HeadFile\tts.h)(0x59DC8F16)
-F (.\src\version.h)(0x59E4799B)()
-F (.\DebugFunc\DBMain_Demo.c)(0x59C35D9B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\dbmain_demo.o --omf_browse .\output\dbmain_demo.crf --depend .\output\dbmain_demo.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\DB.h)(0x59782DBC)
-I (..\..\P18library\HeadFile\AppIFExt.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-F (.\DebugFunc\Algo_Debug.c)(0x587741BD)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\algo_debug.o --omf_browse .\output\algo_debug.crf --depend .\output\algo_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\libAlgo.h)(0x593760F3)
-F (.\DebugFunc\Beep_Debug.c)(0x591E9028)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\beep_debug.o --omf_browse .\output\beep_debug.crf --depend .\output\beep_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-F (.\DebugFunc\BT_Debug.c)(0x59B8DD07)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\bt_debug.o --omf_browse .\output\bt_debug.crf --depend .\output\bt_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\bluetooth.h)(0x59B77916)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-F (.\DebugFunc\Contact_Debug.c)(0x591E970C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\contact_debug.o --omf_browse .\output\contact_debug.crf --depend .\output\contact_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\cpu.h)(0x598292FB)
-F (.\DebugFunc\Flash_Debug.c)(0x591E92C1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\flash_debug.o --omf_browse .\output\flash_debug.crf --depend .\output\flash_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\Flash.h)(0x59782DBF)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\mxflash.h)(0x59782DC1)
-F (.\DebugFunc\Key_Debug.c)(0x59C46F98)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\key_debug.o --omf_browse .\output\key_debug.crf --depend .\output\key_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-F (.\DebugFunc\LCD_Debug.c)(0x5986C681)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\lcd_debug.o --omf_browse .\output\lcd_debug.crf --depend .\output\lcd_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\lcd.h)(0x59DD7916)
-F (.\DebugFunc\LED_Debug.c)(0x59684145)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\led_debug.o --omf_browse .\output\led_debug.crf --depend .\output\led_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\led.h )(0x59782DC1)
-F (.\DebugFunc\LEDSeg_Debug.c)(0x591E8BD7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\ledseg_debug.o --omf_browse .\output\ledseg_debug.crf --depend .\output\ledseg_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\led_seg.h)(0x59782DC1)
-F (.\DebugFunc\RTC_Debug.c)(0x591E9572)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\rtc_debug.o --omf_browse .\output\rtc_debug.crf --depend .\output\rtc_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-F (.\DebugFunc\TransMode_Debug.c)(0x591E970C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\transmode_debug.o --omf_browse .\output\transmode_debug.crf --depend .\output\transmode_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-F (.\DebugFunc\Sound_Debug.c)(0x59DC91E0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\sound_debug.o --omf_browse .\output\sound_debug.crf --depend .\output\sound_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\tts.h)(0x59DC8F16)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-F (.\DebugFunc\Tcp_Debug.c)(0x59B10821)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\tcp_debug.o --omf_browse .\output\tcp_debug.crf --depend .\output\tcp_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\tcp.h)(0x59B23421)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\mifare1_operate.h)(0x59A67299)
-I (..\..\P18library\HeadFile\rc523_driver.h)(0x593760F3)
-I (..\..\P18library\HeadFile\picc_rc523_lib.h)(0x59A67299)
-I (..\..\P18library\HeadFile\type.h)(0x5965BF05)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cm4.h)(0x594A221B)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\Inc\core_cmInstr.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cmFunc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cm4_simd.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\system_stm32f4xx.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_conf.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_adc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_can.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_crc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_cryp.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dac.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dbgmcu.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dcmi.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dma.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_exti.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_flash.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_fsmc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_hash.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_gpio.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_i2c.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_iwdg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_pwr.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rcc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rng.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rtc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_sdio.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_spi.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_syscfg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_tim.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_usart.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_wwdg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\misc.h)(0x594A221B)
-F (.\DebugFunc\Gps.Debug.c)(0x59E47922)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\gps.debug.o --omf_browse .\output\gps.debug.crf --depend .\output\gps.debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\gps.h)(0x59E472AE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-F (.\DebugFunc\2_4g_Debug.c)(0x591E92C1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\2_4g_debug.o --omf_browse .\output\2_4g_debug.crf --depend .\output\2_4g_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\_24g_.h)(0x58B7D9CE)
-F (.\DebugFunc\CatactlessCard_Debug.c)(0x59A50456)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\catactlesscard_debug.o --omf_browse .\output\catactlesscard_debug.crf --depend .\output\catactlesscard_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\mifare1_operate.h)(0x59A67299)
-I (..\..\P18library\HeadFile\rc523_driver.h)(0x593760F3)
-I (..\..\P18library\HeadFile\picc_rc523_lib.h)(0x59A67299)
-I (..\..\P18library\HeadFile\type.h)(0x5965BF05)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cm4.h)(0x594A221B)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\Inc\core_cmInstr.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cmFunc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cm4_simd.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\system_stm32f4xx.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_conf.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_adc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_can.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_crc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_cryp.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dac.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dbgmcu.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dcmi.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dma.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_exti.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_flash.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_fsmc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_hash.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_gpio.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_i2c.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_iwdg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_pwr.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rcc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rng.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rtc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_sdio.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_spi.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_syscfg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_tim.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_usart.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_wwdg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\misc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-F (.\DebugFunc\QR_Debug.c)(0x59B0E72A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\qr_debug.o --omf_browse .\output\qr_debug.crf --depend .\output\qr_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\QR_collection.h)(0x59DB150A)
-F (.\DebugFunc\Version_Debug.c)(0x591E8BD7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\version_debug.o --omf_browse .\output\version_debug.crf --depend .\output\version_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
+F (.\main.c)(0x5A2CAB81)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\auxio.h)(0x59782DBD)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\wifi.h)(0x59476F4E)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\led_seg.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\tcp.h)(0x59B23421)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\gps.h)(0x59E472AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\IrDA.h)(0x59B782C1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\QR_collection.h)(0x59DB150A)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\tts.h)(0x59DC8F16)
+F (.\DebugFunc\DBMain_Demo.c)(0x59C35D9B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\dbmain_demo.o --omf_browse .\output\dbmain_demo.crf --depend .\output\dbmain_demo.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\DB.h)(0x59782DBC)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIFExt.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+F (F:\03-Lab\P18 SDK v1.09\Sample Code\P18 Demo\src\version.h)(0x59E4799B)()
+F (.\DebugFunc\Algo_Debug.c)(0x587741BD)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\algo_debug.o --omf_browse .\output\algo_debug.crf --depend .\output\algo_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\libAlgo.h)(0x593760F3)
+F (.\DebugFunc\Beep_Debug.c)(0x591E9028)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\beep_debug.o --omf_browse .\output\beep_debug.crf --depend .\output\beep_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+F (.\DebugFunc\BT_Debug.c)(0x59B8DD07)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\bt_debug.o --omf_browse .\output\bt_debug.crf --depend .\output\bt_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\bluetooth.h)(0x59B77916)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+F (.\DebugFunc\Contact_Debug.c)(0x591E970C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\contact_debug.o --omf_browse .\output\contact_debug.crf --depend .\output\contact_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\cpu.h)(0x598292FB)
+F (.\DebugFunc\Flash_Debug.c)(0x591E92C1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\flash_debug.o --omf_browse .\output\flash_debug.crf --depend .\output\flash_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Flash.h)(0x59782DBF)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\mxflash.h)(0x59782DC1)
+F (.\DebugFunc\Key_Debug.c)(0x59C46F98)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\key_debug.o --omf_browse .\output\key_debug.crf --depend .\output\key_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+F (.\DebugFunc\LCD_Debug.c)(0x5986C681)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\lcd_debug.o --omf_browse .\output\lcd_debug.crf --depend .\output\lcd_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\lcd.h)(0x59DD7916)
+F (.\DebugFunc\LED_Debug.c)(0x59684145)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\led_debug.o --omf_browse .\output\led_debug.crf --depend .\output\led_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\led.h)(0x59782DC1)
+F (.\DebugFunc\LEDSeg_Debug.c)(0x591E8BD7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\ledseg_debug.o --omf_browse .\output\ledseg_debug.crf --depend .\output\ledseg_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\led_seg.h)(0x59782DC1)
+F (.\DebugFunc\RTC_Debug.c)(0x591E9572)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\rtc_debug.o --omf_browse .\output\rtc_debug.crf --depend .\output\rtc_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+F (.\DebugFunc\TransMode_Debug.c)(0x591E970C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\transmode_debug.o --omf_browse .\output\transmode_debug.crf --depend .\output\transmode_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+F (.\DebugFunc\Sound_Debug.c)(0x59DC91E0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\sound_debug.o --omf_browse .\output\sound_debug.crf --depend .\output\sound_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\tts.h)(0x59DC8F16)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+F (.\DebugFunc\Tcp_Debug.c)(0x59B10821)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\tcp_debug.o --omf_browse .\output\tcp_debug.crf --depend .\output\tcp_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\tcp.h)(0x59B23421)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\mifare1_operate.h)(0x59A67299)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\rc523_driver.h)(0x593760F3)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\picc_rc523_lib.h)(0x59A67299)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\type.h)(0x5965BF05)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cm4.h)(0x594A221B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cmInstr.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cmFunc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cm4_simd.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\system_stm32f4xx.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_conf.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_adc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_can.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_crc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_cryp.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dac.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dbgmcu.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dcmi.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dma.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_exti.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_flash.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_fsmc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_hash.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_gpio.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_i2c.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_iwdg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_pwr.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rcc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rng.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rtc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_sdio.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_spi.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_syscfg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_tim.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_usart.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_wwdg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\misc.h)(0x594A221B)
+F (.\DebugFunc\Gps.Debug.c)(0x59E47922)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\gps.debug.o --omf_browse .\output\gps.debug.crf --depend .\output\gps.debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\gps.h)(0x59E472AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+F (.\DebugFunc\2_4g_Debug.c)(0x591E92C1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\2_4g_debug.o --omf_browse .\output\2_4g_debug.crf --depend .\output\2_4g_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\_24g_.h)(0x58B7D9CE)
+F (.\DebugFunc\CatactlessCard_Debug.c)(0x5A2CCB39)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\catactlesscard_debug.o --omf_browse .\output\catactlesscard_debug.crf --depend .\output\catactlesscard_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\mifare1_operate.h)(0x59A67299)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\rc523_driver.h)(0x593760F3)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\picc_rc523_lib.h)(0x59A67299)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\type.h)(0x5965BF05)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cm4.h)(0x594A221B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cmInstr.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cmFunc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cm4_simd.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\system_stm32f4xx.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_conf.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_adc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_can.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_crc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_cryp.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dac.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dbgmcu.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dcmi.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dma.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_exti.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_flash.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_fsmc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_hash.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_gpio.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_i2c.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_iwdg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_pwr.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rcc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rng.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rtc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_sdio.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_spi.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_syscfg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_tim.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_usart.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_wwdg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\misc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+F (.\DebugFunc\QR_Debug.c)(0x59B0E72A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\qr_debug.o --omf_browse .\output\qr_debug.crf --depend .\output\qr_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\QR_collection.h)(0x59DB150A)
+F (.\DebugFunc\Version_Debug.c)(0x591E8BD7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\version_debug.o --omf_browse .\output\version_debug.crf --depend .\output\version_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
 I (.\src\version.h)(0x59E4799B)
-F (.\DebugFunc\IrDA_Debug.c)(0x59B8A8EB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\irda_debug.o --omf_browse .\output\irda_debug.crf --depend .\output\irda_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\IrDA.h)(0x59B782C1)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-F (.\DebugFunc\AUTO_Debug.c)(0x59478BDD)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\P18library -I ..\..\P18library\HeadFile -I .\src -I ..\..\P18library\HeadFile\Inc-I "E:\P18项目\11 开发文档\01 嵌入式开发包\出厂程序\P18_演示程序\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\auto_debug.o --omf_browse .\output\auto_debug.crf --depend .\output\auto_debug.d)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\systick.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\system.h)(0x59C0B9F1)
-I (..\..\P18library\HeadFile\AppIF.h)(0x59DB1336)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
-I (..\..\P18library\HeadFile\Kernel.h)(0x59782DC0)
-I (..\..\P18library\HeadFile\tcp.h)(0x59B23421)
-I (..\..\P18library\HeadFile\com.h)(0x59719E40)
-I (..\..\P18library\HeadFile\auxio.h)(0x59782DBD)
-I (..\..\P18library\HeadFile\wifi.h)(0x59476F4E)
-I (..\..\P18library\HeadFile\led_seg.h)(0x59782DC1)
-I (..\..\P18library\HeadFile\led.h )(0x59782DC1)
-I (..\..\P18library\HeadFile\lcd.h )(0x59DD7916)
-I (..\..\P18library\HeadFile\gps.h)(0x59E472AE)
-I (..\..\P18library\HeadFile\mifare1_operate.h)(0x59A67299)
-I (..\..\P18library\HeadFile\rc523_driver.h)(0x593760F3)
-I (..\..\P18library\HeadFile\picc_rc523_lib.h)(0x59A67299)
-I (..\..\P18library\HeadFile\type.h)(0x5965BF05)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cm4.h)(0x594A221B)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (..\..\P18library\HeadFile\Inc\core_cmInstr.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cmFunc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\core_cm4_simd.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\system_stm32f4xx.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_conf.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_adc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_can.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_crc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_cryp.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dac.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dbgmcu.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dcmi.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_dma.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_exti.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_flash.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_fsmc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_hash.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_gpio.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_i2c.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_iwdg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_pwr.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rcc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rng.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_rtc.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_sdio.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_spi.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_syscfg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_tim.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_usart.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\stm32f4xx_wwdg.h)(0x594A221B)
-I (..\..\P18library\HeadFile\Inc\misc.h)(0x594A221B)
-F (..\..\P18library\P18.Lib.SVN716.171016.lib)(0x59E46D7E)()
+F (.\DebugFunc\IrDA_Debug.c)(0x59B8A8EB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\irda_debug.o --omf_browse .\output\irda_debug.crf --depend .\output\irda_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\IrDA.h)(0x59B782C1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+F (.\DebugFunc\AUTO_Debug.c)(0x59478BDD)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I "F:\03-Lab\P18 SDK v1.09\P18library" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile" -I "F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc" -I .\src-I.\RTE\_P18-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER --C99-o .\output\auto_debug.o --omf_browse .\output\auto_debug.crf --depend .\output\auto_debug.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B9154)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\systick.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\MiscFunc.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\system.h)(0x59C0B9F1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\AppIF.h)(0x59DB1336)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\APIINC.h)(0x59C0DBB0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Kernel.h)(0x59782DC0)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\tcp.h)(0x59B23421)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\com.h)(0x59719E40)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\auxio.h)(0x59782DBD)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\wifi.h)(0x59476F4E)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\led_seg.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\led.h)(0x59782DC1)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\lcd.h)(0x59DD7916)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\gps.h)(0x59E472AE)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\mifare1_operate.h)(0x59A67299)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\rc523_driver.h)(0x593760F3)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\picc_rc523_lib.h)(0x59A67299)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\type.h)(0x5965BF05)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cm4.h)(0x594A221B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B9154)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cmInstr.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cmFunc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\core_cm4_simd.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\system_stm32f4xx.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_conf.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_adc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_can.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_crc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_cryp.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dac.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dbgmcu.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dcmi.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_dma.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_exti.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_flash.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_fsmc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_hash.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_gpio.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_i2c.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_iwdg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_pwr.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rcc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rng.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_rtc.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_sdio.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_spi.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_syscfg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_tim.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_usart.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\stm32f4xx_wwdg.h)(0x594A221B)
+I (F:\03-Lab\P18 SDK v1.09\P18library\HeadFile\Inc\misc.h)(0x594A221B)
+F (F:\03-Lab\P18 SDK v1.09\P18library\P18.Lib.SVN716.171016.lib)(0x59E46D7E)()
